@@ -18,6 +18,21 @@ class Navbar extends React.Component {
 		new WOW.WOW().init();
 	}
 
+	navEffect() {
+		window.addEventListener("scroll", () => {
+			var navBar = document.getElementById("navbar");
+			var domRect = navBar.getBoundingClientRect();
+			var myBackground = document.getElementById("my-background");
+			var domBGRect = myBackground.getBoundingClientRect();
+
+			if (domRect.y <= -domRect.height) {
+				navBar.classList.add("fade-in-nav");
+			}
+			if (-domBGRect.height < domBGRect.top) {
+				navBar.classList.remove("fade-in-nav");
+			}
+		});
+	}
 	render() {
 		 }
 }
