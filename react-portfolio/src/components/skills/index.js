@@ -1,7 +1,7 @@
 import React from "react";
 
-function About() {
-  return <p>About</p>
+function skills() {
+  return <p>skills</p>
   }
   
   export default About;
