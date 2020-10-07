@@ -1,8 +1,8 @@
 import React from "react";
-import Background from "./background.jsx";
-import About from "./about.jsx";
-import Projects from "./projects.jsx";
-import Contact from "./contact.jsx";
+import Background from "../background";
+import About from "../about";
+import Projects from "../projects";
+import Contact from "../contact";
 import WOW from "wowjs";
 
 class Navbar extends React.Component {
@@ -14,7 +14,7 @@ class Navbar extends React.Component {
 		this.scrolling = this.scrolling.bind(this);
 	}
 
-    componentDidMount() {
+	componentDidMount() {
 		new WOW.WOW().init();
 	}
 
@@ -41,9 +41,17 @@ class Navbar extends React.Component {
 			behavior: "smooth"
 		});
 	}
-	
+
 	render() {
-		 }
+		return(
+		<Background
+			ref={this.navEffect}
+			id="my-background"
+			aboutRef={this.about}
+			bounceIn={"wow bounceIn"}
+		/>
+		)
+	}
 }
-  
+
 export default Navbar;
