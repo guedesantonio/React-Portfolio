@@ -33,6 +33,15 @@ class Navbar extends React.Component {
 			}
 		});
 	}
+
+	scrolling(instance) {
+		let node = document.getElementById(instance.current.props.id);
+		window.scrollTo({
+			top: node.offsetTop,
+			behavior: "smooth"
+		});
+	}
+	
 	render() {
 		 }
 }
