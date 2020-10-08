@@ -1,6 +1,7 @@
 import React from "react";
 import Background from "../background";
 import WOW from "wowjs";
+import "./styles.css"
 
 class Navbar extends React.Component {
 	constructor(props) {
@@ -41,11 +42,40 @@ class Navbar extends React.Component {
 
 	render() {
 		return(
+			<div>
+			<nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+                <div className="container">
+                    <a className="navbar-brand js-scroll" href="#page-top"><img src="#" alt="logo" style={{maxWidth: "100px"}}/></a>
+                    <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                        <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll active" href="#home">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll" href="#about">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll" href="#work">Work</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll" href="#contact">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 		<Background
 			ref={this.navEffect}
 			id="my-background"
 			bounceIn={"wow bounceIn"}
 		/>
+		</div>
 		)
 	}
 }

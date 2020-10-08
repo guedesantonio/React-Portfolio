@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import WOW from "wowjs";
 import Typed from 'react-typed';
+import "./styles.css"
 
 export default class Background extends React.Component {
   componentDidMount() {
@@ -10,7 +11,7 @@ export default class Background extends React.Component {
 
   render() {
     return (
-      <div id="my-background" className="background">
+      <div id="my-background" className="intro background">
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />

@@ -52,3 +52,9 @@
   .testimonial-box .description {
     padding: 0 5rem;
   }
+
+  @media (min-width: 768px)
+  
+.intro .intro-title {
+    font-size: 4.5rem;
+}

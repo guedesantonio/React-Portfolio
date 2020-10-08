@@ -1,0 +1,11 @@
+.intro .intro-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  
+.intro .intro-title {
+    font-size: 4.5rem;
+}}
