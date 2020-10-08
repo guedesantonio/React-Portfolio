@@ -1,8 +1,5 @@
 import React from "react";
 import Background from "../background";
-import About from "../about";
-import Projects from "../projects";
-import Contact from "../contact";
 import WOW from "wowjs";
 
 class Navbar extends React.Component {
@@ -47,7 +44,6 @@ class Navbar extends React.Component {
 		<Background
 			ref={this.navEffect}
 			id="my-background"
-			aboutRef={this.about}
 			bounceIn={"wow bounceIn"}
 		/>
 		)

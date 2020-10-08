@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.intro .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro .intro-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .intro-single .intro-title {
+    font-size: 3.5rem;
+  }
+
+  .testimonial-box .description {
+    padding: 0 5rem;
+  }
