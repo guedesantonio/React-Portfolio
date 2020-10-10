@@ -1,51 +1,68 @@
 import React from "react";
 import Background from "../background";
 import WOW from "wowjs";
+import $ from 'jquery';
 import "./styles.css"
 
 class Navbar extends React.Component {
-	constructor(props) {
-		super(props);
-		this.about = React.createRef();
-		this.projects = React.createRef();
-		this.contact = React.createRef();
-		this.scrolling = this.scrolling.bind(this);
-	}
+	constructor(){
+        super();
+    }
 
-	componentDidMount() {
-		new WOW.WOW().init();
-	}
+    componentDidMount(){
+        const nav = $('nav');
+        let navHeight = nav.outerHeight();
 
-	navEffect() {
-		window.addEventListener("scroll", () => {
-			var navBar = document.getElementById("navbar");
-			var domRect = navBar.getBoundingClientRect();
-			var myBackground = document.getElementById("my-background");
-			var domBGRect = myBackground.getBoundingClientRect();
+        $('.navbar-toggler').on('click', function() {
+            if( ! $('#mainNav').hasClass('navbar-reduce')) {
+              $('#mainNav').addClass('navbar-reduce');
+            }
+          })
 
-			if (domRect.y <= -domRect.height) {
-				navBar.classList.add("fade-in-nav");
-			}
-			if (-domBGRect.height < domBGRect.top) {
-				navBar.classList.remove("fade-in-nav");
-			}
-		});
-	}
+        $('body').scrollspy({
+            target: '#mainNav',
+            offset: navHeight
+        });
 
-	scrolling(instance) {
-		let node = document.getElementById(instance.current.props.id);
-		window.scrollTo({
-			top: node.offsetTop,
-			behavior: "smooth"
-		});
-	}
+        $('.js-scroll').on("click", function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
+        window.addEventListener('scroll', ()=>{
+            if(window.pageYOffset > 50){
+                document.querySelector('.navbar-expand-md').classList.add('navbar-reduce');
+                document.querySelector('.navbar-expand-md').classList.remove('navbar-trans');
+            }else {
+                document.querySelector('.navbar-expand-md').classList.add('navbar-trans');
+                document.querySelector('.navbar-expand-md').classList.remove('navbar-reduce');
+            }
+        });
+
+        $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
+            if (window.location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && window.location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - navHeight + 5)
+                    }, 1000, "easeInExpo");
+                    return false;
+                }
+            }
+        });
+        
+        $('.js-scroll').on("click", function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    }
+
 
 	render() {
 		return(
 			<div>
 			<nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand js-scroll" href="#page-top"><img src="#" alt="logo" style={{maxWidth: "100px"}}/></a>
+                    <a className="navbar-brand js-scroll" href="#page-top">AG</a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                     aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
                         <span></span>
@@ -58,7 +75,7 @@ class Navbar extends React.Component {
                             <a className="nav-link js-scroll active" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#about">About</a>
+                            <a className="nav-link js-scroll" href="skills">Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll" href="#work">Work</a>

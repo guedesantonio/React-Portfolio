@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './styles/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './libs/easing.js';
+import 'lightbox2/dist/js/lightbox.min.js';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
