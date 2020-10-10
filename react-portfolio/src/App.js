@@ -6,6 +6,7 @@ import "./utils/index.scss";
 import "./utils/css/app.css";
 import Skills from './components/skills';
 import Technologies from './components/technologies';
+import Studies from './components/studies';
 
 function App() {
  return (
@@ -13,6 +14,7 @@ function App() {
     <Navbar/>
     <Skills/>
     <Technologies/>
+    <Studies/>
     </div>
  );
 }
