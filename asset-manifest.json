@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.29c430bb.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.dce5480d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.dce5480d.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/React-Portfolio/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.1ebb95ba.chunk.js": "/React-Portfolio/static/js/2.1ebb95ba.chunk.js",
+    "static/js/2.1ebb95ba.chunk.js.map": "/React-Portfolio/static/js/2.1ebb95ba.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.3114e7ff283969c100980178b11e58f7.js": "/React-Portfolio/precache-manifest.3114e7ff283969c100980178b11e58f7.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/React-Portfolio/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.29c430bb.chunk.css.map": "/React-Portfolio/static/css/main.29c430bb.chunk.css.map",
+    "static/js/2.1ebb95ba.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.1ebb95ba.chunk.js.LICENSE.txt",
+    "static/media/ANTONIO GUEDES CV.pdf": "/React-Portfolio/static/media/ANTONIO GUEDES CV.4f6324f9.pdf",
+    "static/media/Employee-Tracker.png": "/React-Portfolio/static/media/Employee-Tracker.9f4cbfe7.png",
+    "static/media/Job-Seeker.png": "/React-Portfolio/static/media/Job-Seeker.4e3e6920.png",
+    "static/media/Team-Profile-Generator.png": "/React-Portfolio/static/media/Team-Profile-Generator.cc8a87f4.png",
+    "static/media/Want-to-Watch-Series-Manager.png": "/React-Portfolio/static/media/Want-to-Watch-Series-Manager.525e9b74.png",
+    "static/media/Weather-dashboard.png": "/React-Portfolio/static/media/Weather-dashboard.d83b2afe.png",
+    "static/media/app.css": "/React-Portfolio/static/media/map-image2.ac27618e.png",
+    "static/media/code-quiz.gif": "/React-Portfolio/static/media/code-quiz.47043032.gif",
+    "static/media/note-taker.gif": "/React-Portfolio/static/media/note-taker.8ed04cf3.gif",
+    "static/media/password-generator.png": "/React-Portfolio/static/media/password-generator.0d55b663.png",
+    "static/media/udemy-2-logo.png": "/React-Portfolio/static/media/udemy-2-logo.9f38217a.png",
+    "static/media/ufmg-logo-225.png": "/React-Portfolio/static/media/ufmg-logo-225.e0c168d7.png",
+    "static/media/universityofsydneyLogo.jpg": "/React-Portfolio/static/media/universityofsydneyLogo.88055e12.jpg",
+    "static/media/work-day-scheduler.gif": "/React-Portfolio/static/media/work-day-scheduler.1a3a635e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.266d4783.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.1ebb95ba.chunk.js",
+    "static/css/main.29c430bb.chunk.css",
+    "static/js/main.dce5480d.chunk.js"
+  ]
+}
