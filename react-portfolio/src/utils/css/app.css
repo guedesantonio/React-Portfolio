@@ -293,6 +293,9 @@ header.masthead .intro-text .intro-heading {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
+  font-weight: 500;
+  text-shadow: 0 4px 4px black;
+
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -912,6 +915,8 @@ section#contact :-ms-input-placeholder {
 .footer {
   padding: 25px 0;
   text-align: center;
+  background-color: black;
+  color:  #2F89C5;
 }
 
 .footer span.copyright {

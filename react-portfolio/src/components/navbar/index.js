@@ -64,9 +64,6 @@ class Navbar extends React.Component {
                     <a className="navbar-brand js-scroll" href="#page-top">AG</a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                     aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
                     </button>
                     <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
                         <ul className="navbar-nav">
@@ -86,7 +83,7 @@ class Navbar extends React.Component {
                             <a className="nav-link js-scroll" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#contact">Contact</a>
+                            <a className="nav-link js-scroll" href="mailto:gguedesantonio@gmail.com" rel="noopener noreferrer">Contact</a>
                         </li>
                         </ul>
                     </div>

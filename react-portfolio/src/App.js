@@ -8,6 +8,7 @@ import Skills from './components/skills';
 import Technologies from './components/technologies';
 import Studies from './components/studies';
 import Portfolio from './components/portfolio';
+import Footer from './components/footer';
 
 function App() {
  return (
@@ -17,6 +18,7 @@ function App() {
     <Technologies/>
     <Studies/>
     <Portfolio/>
+    <Footer/>
     </div>
  );
 }
