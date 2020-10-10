@@ -61,7 +61,7 @@ class Navbar extends React.Component {
 			<div>
 			<nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand js-scroll" href="#page-top">AG</a>
+                    <a className="navbar-brand js-scroll" href="#home">AG</a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                     aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
                     </button>
