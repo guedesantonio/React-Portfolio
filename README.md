@@ -17,7 +17,7 @@
 
   ## Installation
   
-  This app is hosted on heroku. You can access the app by clicking [here](http://www.guedesantonio.com).
+  This app is hosted on heroku. You can access the app by clicking [here](https://guedesantonio.github.io/React-Portfolio/).
 
 
   ## Usage
