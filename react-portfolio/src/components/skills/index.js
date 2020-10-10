@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import 'jquery/dist/jquery.min.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChartLine ,faTasks } from '@fortawesome/free-solid-svg-icons'
+import { faJsSquare } from '@fortawesome/free-brands-svg-icons'
+
 export default class Skills extends Component {
   render() {
       return (
@@ -14,8 +17,7 @@ export default class Skills extends Component {
 <div className="row text-center">
     <div className="col-md-4">
     <span className="fa-stack fa-4x">
-        <i className="fas fa-circle fa-stack-2x text-primary"/>
-        <i className="fab fa-js-square fa-stack-1x fa-inverse"/>
+        <FontAwesomeIcon icon={faJsSquare} />
     </span>
     <h4 className="service-heading">JavaScript / React Development</h4>
     <p className="text-muted column-description">Lately, I have been working as a software developer, building
@@ -24,8 +26,7 @@ export default class Skills extends Component {
     </div>
     <div className="col-md-4">
     <span className="fa-stack fa-4x">
-        <i className="fas fa-circle fa-stack-2x text-primary"/>
-        <i className="fas fa-chart-line fa-stack-1x fa-inverse"/>
+     <FontAwesomeIcon icon={faChartLine} /> 
     </span>
     <h4 className="service-heading">Business Analysis</h4>
     <p className="text-muted column-description">In a great period of my career, I was responsible for understanding
@@ -35,8 +36,7 @@ export default class Skills extends Component {
     </div>
     <div className="col-md-4">
     <span className="fa-stack fa-4x">
-        <i className="fas fa-circle fa-stack-2x text-primary"/>
-        <i className="fas fa-tasks fa-stack-1x fa-inverse"/>
+      <FontAwesomeIcon icon={faTasks} />
     </span>
     <h4 className="service-heading">Problem Solving</h4>
     <p className="text-muted column-description">During all my career as an engineer I have been a problem solver. Being able to work with tools

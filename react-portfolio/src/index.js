@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.scss';
+import './utils/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'jquery/dist/jquery.min.js';
