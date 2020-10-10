@@ -16,7 +16,7 @@ export default class Skills extends Component {
 </div>
 <div className="row text-center">
     <div className="col-md-4">
-    <span className="social-buttons fa-stack fa-4x">
+    <span className="fa-stack fa-4x">
         <FontAwesomeIcon icon={faJsSquare} />
     </span>
     <h4 className="service-heading">JavaScript / React Development</h4>
