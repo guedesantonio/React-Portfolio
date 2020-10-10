@@ -11,7 +11,7 @@ export default class Background extends React.Component {
 
   render() {
     return (
-      <div id="my-background" className="intro background">
+      <div id="home" className="intro background">
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />

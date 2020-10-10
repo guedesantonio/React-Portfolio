@@ -1,6 +1,5 @@
 import React from "react";
 import Background from "../background";
-import WOW from "wowjs";
 import $ from 'jquery';
 import "./styles.css"
 
@@ -75,7 +74,7 @@ class Navbar extends React.Component {
                             <a className="nav-link js-scroll active" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll" href="skills">Skills</a>
+                            <a className="nav-link js-scroll" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll" href="#work">Work</a>
