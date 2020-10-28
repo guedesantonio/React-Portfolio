@@ -267,7 +267,6 @@ function Portfolio() {
         </div>
       </div>
 
-
       <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -297,7 +296,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-
 
       <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -329,7 +327,6 @@ function Portfolio() {
         </div>
       </div>
 
-
       <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -359,7 +356,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-
 
       <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -391,7 +387,6 @@ function Portfolio() {
         </div>
       </div>
 
-
       <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -421,7 +416,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-
 
       <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
