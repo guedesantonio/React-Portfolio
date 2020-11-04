@@ -415,7 +415,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-
       <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -431,7 +430,7 @@ function Portfolio() {
                     <h2 class="text-uppercase">Team-Profile-Generator</h2>
                     <img class="img-fluid" src={teamProfile} alt="" />
                     <p>
-                      A Node CLI tested application that prompts the user about his team information and generates an reposnsive HTML webpage that displays summaries for team member.</p>
+                      A Node CLI tested application that prompts the user about his team information and generates an reposnsive HTML webpage that displays summaries for each team member.</p>
                     <br />
                Click here to see the functionality of this app: <a href="https://drive.google.com/file/d/1KQnTliIxf2PLpnME1_WLn7zAExDcEONh/view">Here</a>
                     <br /><br />
